@@ -23,25 +23,29 @@ Ensuring erroneous data from pitchers' final seasons is corrected or excluded to
 ___
 
 2. Presentation
+   
 A concise project overview PDF for a 5-minute presentation. It summarizes the objectives, methodologies, results, and next steps.
 Objective
 Goal: Build a regression model to predict the number of saves a pitcher will earn based on previous performance metrics.
 ___
 
 3. Approach
+   
 Feature Selection
 Final model features include:
 Opportunity Indicators: Games finished, appearances, saves, save opportunities, holds, team change, and two-year running sum of saves.
 Performance Metrics: FIP (Fielding Independent Pitching), SO/BB (Strikeouts-to-Walks ratio), BB/9 (Walks per nine innings), H/9 (Hits per nine innings), ERA+ (Adjusted ERA), "mistakes" per game, and batters faced per game.
 Demographic Factors: Age.
 
-4. Modeling Techniques
+5. Modeling Techniques
+   
 Linear regression.
 Ridge regression.
 LASSO regression.
 Feature scaling to optimize performance based on R² and MSE.
 
-5. Data and Feature Engineering
+7. Data and Feature Engineering
+   
 *Data Source*
 Data for over 300 pitchers spanning approximately 1,500 seasons was scraped from Baseball-Reference.
 *Data Preparation*
@@ -53,7 +57,8 @@ Interaction terms created in polynomial models.
 LASSO cross-validation to streamline feature selection.
 ___
 
-6. Results Summary
+8. Results Summary
+   
 Final Model: LASSO regression.
 Performance Metrics:
 𝑅2 = 0.41
@@ -71,7 +76,8 @@ FIP.
 SO/BB.
 SO/9.
 
-7. Next Steps
+9. Next Steps
+    
 Improving Opportunity Metrics:
 Investigate team and managerial trends in reliever usage and saves distribution.
 Enhancing Dominance Metrics:
