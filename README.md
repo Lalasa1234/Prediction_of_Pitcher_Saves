@@ -47,6 +47,7 @@ Feature scaling to optimize performance based on R² and MSE.
    
 *Data Source*
 Data for over 300 pitchers spanning approximately 1,500 seasons was scraped from Baseball-Reference.
+
 *Data Preparation*
 Entire careers were analyzed, enabling exploration of time-series trends.
 Features were evaluated using:
@@ -65,12 +66,16 @@ Mean Absolute Error (MAE): 10.2 saves.
 Interpretation: The model explains 41% of the variability in saves and predicts saves within an average error of 10.2 saves per season.
 
 *Key Contributing Features*
+
 ***Opportunity Metrics***
+
 Games finished.
 Holds.
 Saves.
 Games.
+
 ***Dominance Metrics***
+
 FIP.
 SO/BB.
 SO/9.
