@@ -37,14 +37,14 @@ Opportunity Indicators: Games finished, appearances, saves, save opportunities, 
 Performance Metrics: FIP (Fielding Independent Pitching), SO/BB (Strikeouts-to-Walks ratio), BB/9 (Walks per nine innings), H/9 (Hits per nine innings), ERA+ (Adjusted ERA), "mistakes" per game, and batters faced per game.
 Demographic Factors: Age.
 
-5. Modeling Techniques
+4. Modeling Techniques
    
 Linear regression.
 Ridge regression.
 LASSO regression.
 Feature scaling to optimize performance based on R² and MSE.
 
-7. Data and Feature Engineering
+5. Data and Feature Engineering
    
 *Data Source*
 Data for over 300 pitchers spanning approximately 1,500 seasons was scraped from Baseball-Reference.
@@ -57,7 +57,7 @@ Interaction terms created in polynomial models.
 LASSO cross-validation to streamline feature selection.
 ___
 
-8. Results Summary
+6. Results Summary
    
 Final Model: LASSO regression.
 Performance Metrics:
@@ -76,7 +76,7 @@ FIP.
 SO/BB.
 SO/9.
 
-9. Next Steps
+7. Next Steps
     
 Improving Opportunity Metrics:
 Investigate team and managerial trends in reliever usage and saves distribution.
@@ -90,7 +90,8 @@ Exploring Classification Models:
 Transition from strict regression to a classification approach for pitcher roles (e.g., closer, setup man).
 ___
 
-Featured Techniques
+8. Featured Techniques
+   
 Web Scraping: Utilized BeautifulSoup for data extraction.
 Machine Learning:
 Linear regression.
@@ -100,7 +101,8 @@ Exploratory Data Analysis:
 Visualizations for identifying feature relationships and collinearity.
 ___
 
-Best Practices
+9. Best Practices
+    
 How to Use This Repository
 Data Collection: Use the scraping scripts to gather updated baseball statistics.
 Data Cleaning & Analysis: Follow the steps in the Predicting_Saves notebook to preprocess and analyze the data.
