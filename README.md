@@ -4,9 +4,8 @@ Predicting Saves: A Baseball Statistics Project
 This project explores the use of baseball statistics to predict the number of saves a pitcher will earn based on past performance using linear regression and other machine learning techniques.
 ___
 
-1. Repository Contents
+1. Repository Notebooks
 
-*Notebooks*
 Predicting_Saves
 Objective: Scrapes data, processes it into clean, usable formats, and builds regression models to predict saves.
 Processes:
